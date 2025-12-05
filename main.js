@@ -37,22 +37,22 @@ function switchCategory(type) {
   let animeData = [];
   if (type === 'hot') {
     animeData = [
-      {name: '火影忍者 疾风传', cover: 'img/cover2.jpg'},
-      {name: '海贼王', cover: 'img/cover2.jpg'},
-      {name: '咒术回战', cover: 'img/cover2.jpg'},
-      {name: '鬼灭之刃', cover: 'img/cover2.jpg'}
+      {name: '火影忍者 疾风传', cover: 'cover1.png'},
+      {name: '海贼王', cover: 'cover2.jpg'},
+      {name: '咒术回战', cover: 'cover2.jpg'},
+      {name: '鬼灭之刃', cover: 'cover2.jpg'}
     ];
   } else if (type === 'new') {
     animeData = [
-      {name: '间谍过家家 第二季', cover: 'img/cover2.jpg'},
-      {name: '电锯人', cover: 'img/cover2.jpg'},
-      {name: '蓝色监狱', cover: 'img/cover2.jpg'}
+      {name: '间谍过家家 第二季', cover: 'cover2.jpg'},
+      {name: '电锯人', cover: 'cover2.jpg'},
+      {name: '蓝色监狱', cover: 'cover2.jpg'}
     ];
   } else if (type === 'classic') {
     animeData = [
-      {name: '名侦探柯南', cover: 'img/cover2.jpg'},
-      {name: '哆啦A梦', cover: 'img/cover2.jpg'},
-      {name: '蜡笔小新', cover: 'img/cover2.jpg'}
+      {name: '名侦探柯南', cover: 'cover2.jpg'},
+      {name: '哆啦A梦', cover: 'cover2.jpg'},
+      {name: '蜡笔小新', cover: 'cover2.jpg'}
     ];
   }
 
