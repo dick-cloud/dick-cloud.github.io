@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>动漫分类 - 次元城</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="nav-bar">
+    <div class="logo">
+      <img src="img/logo.png" class="logo-img" alt="logo">
+      <div class="logo-text">次元城</div>
+    </div>
+    <div class="nav-menu">
+      <a href="index.html" class="nav-item">首页</a>
+      <a href="category.html" class="nav-item active">动漫分类</a>
+      <a href="#" class="nav-item">最新更新</a>
+      <a href="#" class="nav-item">排行榜</a>
+    </div>
+    <div class="nav-right">
+      <button class="search-btn">🔍</button>
+      <button class="user-btn">👤</button>
+    </div>
+  </div>
+
+  <!-- 分类内容 -->
+  <div class="category-container">
+    <div class="category-tab">
+      <button class="category-btn active" onclick="switchCategory('hot')">热门动漫</button>
+      <button class="category-btn" onclick="switchCategory('new')">最新上线</button>
+      <button class="category-btn" onclick="switchCategory('classic')">经典怀旧</button>
+    </div>
+
+    <div class="anime-list" id="animeList">
+      <!-- 动态生成动漫列表 -->
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

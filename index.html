@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奈菲 - 动漫视频网站</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="nav-bar">
+    <div class="logo">
+      <img src="img/logo.png" class="logo-img" alt="logo">
+      <div class="logo-text">奈菲</div>
+    </div>
+    <div class="nav-menu">
+      <a href="index.html" class="nav-item active">首页</a>
+      <a href="category.html" class="nav-item">动漫分类</a>
+      <a href="#" class="nav-item">最新更新</a>
+      <a href="#" class="nav-item">排行榜</a>
+    </div>
+    <div class="nav-right">
+      <button class="search-btn">🔍</button>
+      <button class="user-btn">👤</button>
+    </div>
+  </div>
+
+  <!-- 视频封面区域 -->
+  <div class="cover-section">
+    <img src="img/cover1.png" class="cover-img" alt="封面">
+    <div class="cover-info">
+      <div class="cover-title">火影忍者 疾风传</div>
+      <div>
+        <span class="cover-tag">热血</span>
+        <span class="cover-tag">冒险</span>
+        <span class="cover-tag">励志</span>
+      </div>
+      <div class="cover-desc">
+        故事成功地将原本隐藏在黑暗中，用世界上最强大的毅力和最艰辛的努力去做最密不可宣和隐讳残酷的事情的忍者，描绘成了太阳下最值得骄傲最光明无限的职业。
+      </div>
+    </div>
+  </div>
+
+  <!-- 剧集列表区域 -->
+  <div class="episode-section">
+    <div class="section-title">选择剧集</div>
+    <div class="episode-list" id="episodeList">
+      <!-- 动态生成剧集按钮 -->
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
